@@ -34,6 +34,10 @@
             tapping-term-ms = <500>;
             bindings = <&out &kp>;
         };
+        hidiokp: hid_io_key_press {
+            compatible = "zmk,behavior-hid-io-key-press";
+            #binding-cells = <1>;
+        };
     };
 
     /* --- Gamepad HID experiment: forward &hidiokp button events to the joystick HID --- */
