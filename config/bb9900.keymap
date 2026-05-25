@@ -52,8 +52,8 @@
 //        |  Fn  |  LCtrl  |  Alt   |      SPACE      |   Alt   |  RCtrl   |  Fn   |  
 //        -----------------------------------------------------------------------------------------------------------------
             &kp LEFT                      &mkp LCLK         &mkp LCLK      &kp A     &kp S
-&kp UP   &kp DOWN &kp RIGHT               &mkp RCLK                       &kp  Z        &kp X
-&kp ESC    &kp RSHFT     &kp ENTER  &kp K_MUTE    &kp LBKT   &kp RBKT   &kp FSLH   &kp MINUS  &kp  EQUAL &kp BACKSLASH                                                                              
+&kp UP   &kp DOWN &kp RIGHT               &mkp RCLK                       &kp  ESC      &kp ENTER
+&kp ESC    &kp RSHFT     &kp KP_ENTER  &kp K_MUTE    &kp LBKT   &kp RBKT   &kp FSLH   &kp MINUS  &kp  EQUAL &kp BACKSLASH                                                                              
 &kp GRAVE  &kp N1        &kp N2     &kp N3   &kp N4     &kp N5     &kp N6     &kp N7     &kp N8    &kp N9  &kp N0 &kp BSPC
 &kp TAB     &kp Q         &kp W      &kp E    &kp R      &kp T      &kp Y      &kp U      &kp I     &kp O   &kp P
 &kp SQT     &kp A         &kp S      &kp D    &kp F      &kp G      &kp H      &kp J      &kp K     &kp L   &kp SEMICOLON &kp ENTER        
