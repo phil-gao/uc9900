@@ -4,10 +4,18 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: ZitaoTech
       url-base: https://github.com/ZitaoTech
+    - name: badjeff
+      url-base: https://github.com/badjeff
   projects:
     - name: zmk
       remote: ZitaoTech
       revision: bbkeyboard_tp
       import: app/west.yml
+    - name: zmk-hid-io
+      remote: badjeff
+      revision: main
+    - name: zmk-input-behavior-listener
+      remote: badjeff
+      revision: main
   self:
     path: config
